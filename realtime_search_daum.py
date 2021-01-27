@@ -9,7 +9,7 @@ rank = 1
 
 results = soup.findAll('a', 'link_favorsch')
 
-search_rank_file = open("rankresult.txt", "a")
+search_rank_file = open("rank_result_daum.txt", "a")
 
 print(datetime.today().strftime("%Y년 %m월 %d일의 실시간 검색어 순위입니다.\n"))
 
